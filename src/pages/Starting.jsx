@@ -11,6 +11,10 @@ import TextScroll from "./TextScroll";
 import Themes from "./Themes";
 import Sponsor from "../components/Sponsors";
 import HeroSection1 from "./HeroSection1";
+import MainRules from "./MainRules";
+import PastEvents from "./PastEvents";
+import Levels from "./Levels";
+import Prizess from "./Prizess";
 
 const Starting = () => {
   return (
@@ -18,12 +22,16 @@ const Starting = () => {
       <Navbar />
       <Popup />
       <Banner />
+      <AboutSection />
+      <PastEvents/>
       {/*<HeroSection1/>*/}
      {/*<TextScroll />*/}
-      <AboutSection />
+      
       {/*<Themes />*/}
       {/*<Schedule />*/}
-      <Prizes />
+      <Levels/>
+      <Prizess/>
+      <MainRules/>
       <Slideshow />
       {/*<Sponsor />*/}
       <Query />

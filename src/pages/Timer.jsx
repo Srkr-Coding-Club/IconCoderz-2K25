@@ -94,7 +94,7 @@ export default function Timer() {
           </div>
         </div>
         <h1 className="text-5xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-orange-500">
-          HACKOVERFLOW~2K24
+          ICONCODERZ-2K25
         </h1>
       </div>
 

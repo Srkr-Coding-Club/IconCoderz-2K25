@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Image } from "antd";
+import { assets } from "../assets/assets";
 
 const Popup = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -28,16 +29,16 @@ const Popup = () => {
         {/* Image Section */}
         <div className="relative mb-4 flex justify-center items-center w-full h-56 sm:h-72 max-h-80 overflow-hidden rounded-lg shadow-md"> {/* Responsive heights */}
           <Image 
-            src="/prizeposter.jpg" 
+            src={assets.poster}
             className={`w-full h-full object-contain transition-all duration-500 ${imageLoaded ? 'filter-none' : 'filter blur'}`} 
             onLoad={handleImageLoad}
             style={{ transition: "filter 0.5s" }} // Add transition to filter property
           />
         </div>
 
-        <ul className="space-y-2 text-gray-700 list-disc px-4 text-left">
+        <ul className="space-y-2 text-blue-600 font-bold list-disc px-4 text-left">
           <li>
-            Participants may also bring their own problem statements, provided they align with one or a mix of the hackathon themes.
+            Last date for Registration is 2nd February 2025
           </li>
         </ul>
 

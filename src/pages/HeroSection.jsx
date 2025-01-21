@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';  // Import react-scroll Link
 import { assets } from '../assets/assets';
 
 const Banner = () => {
-  const countdownDate = new Date('2024-10-18T00:00:00').getTime();
+  const countdownDate = new Date('2025-02-04T15:00:00').getTime();
 
   const [isModalOpen, setIsModalOpen] = useState(false); // State to handle modal visibility
 
@@ -35,9 +35,9 @@ const Banner = () => {
     <div className="flex flex-col h-screen md:flex-row items-center bg-gradient-to-r from-gray-800 to-gray-900 text-white py-10 px-5">
       <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left md:ml-10">
         <h1 className="text-3xl mt-20 font-serif">SRKR CODING CLUB PRESENTS</h1>
-        <h1 className="md:text-5xl text-4xl font-semibold mb-4 titles">ICON CODERZ~2K25</h1>
+        <h1 className="md:text-5xl text-4xl font-semibold mb-4 ">ICON CODERZ~2K25</h1>
         <p className="text-2xl mb-2 font-bold">4TH FEB TUESDAY</p>
-        <p className="text-xl mb-8">HACK FOR A CHANGE !</p>
+        <p className="text-xl mb-8 italic">CODE FOR A CHANGE !</p>
         <Countdown date={countdownDate} renderer={renderer} />
 
         {/* Buttons container */}
@@ -46,8 +46,8 @@ const Banner = () => {
 
           {/* Register Now Button */}
           <a
-            // href="https://docs.google.com/forms/d/e/1FAIpQLSdVyjJdFcq6N0cF77GUCD1Uag61aYVizyVm-Y0PMbTMCQmbig/formResponse"
-            href='https://forms.gle/XuPZN1aBkxoofAqG7' target='_blank'
+            // href="https://docs.google.com/forms/d/e/1FAIpQLSdVyjJdFcq6N0cF77GUCD1Uag61aYVizyVm-Y0PMbTMCQmbig/formResponse   https://forms.gle/XuPZN1aBkxoofAqG7"
+            href='https://forms.gle/KdMBv6Y6Dykk5nMX9' target='_blank'
             className="px-10 py-3 bg-white text-gray-900 font-bold rounded-full shadow-lg hover:bg-gray-900 hover:text-white hover:border-white hover:border-2 transition-colors duration-300"
           >
             Register Now
@@ -55,14 +55,15 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="mt-8 md:mt-0 w-[500px] md:ml-8 md:w-[600px] justify-center items-center hidden md:flex">
+      <div className="mt-8 md:mt-0 w-[700px] md:ml-8 md:w-[800px] justify-center items-center hidden md:flex relative drop-shadow-3xl">
   <img 
-    src={assets.HeroSection} 
+    src={assets.finaledit} 
     alt="Character" 
-    className="max-w-full h-auto md:h-[25rem] lg:h-[30rem] object-cover rounded-xl  opacity-90 transition-all duration-300 transform hover:scale-105"
-    
+    className="max-w-full h-auto md:h-[30rem] lg:h-[35rem]"
   />
 </div>
+
+
 
 
 

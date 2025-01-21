@@ -11,40 +11,11 @@ const AboutSection = () => {
   return (
     <div ref={ref} className="px-5 py-10 text-white" id="about">
 
-<div className="flex flex-col items-center justify-center space-y-8 font-semibold md:flex-row md:space-y-0 md:space-x-8">
-
-  {/* Second card */}
-  <div className="flex flex-col items-center p-8 text-center bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-56 min-h-full">
-    {/*<span className="text-4xl text-pink-500">
-      {inView && <CountUp start={0} end={24} duration={2} />}
-    </span>*/}
-    <h4 className="text-white text-2xl font-extrabold mb-3 flex">
-      <span>Expert</span>
-      <span className="ml-1">Level</span>
-    </h4>
-    <span className="text-lg text-gray-200">1st & 2nd Years</span>
-  </div>
-
-  {/* Third card */}
-  <div className="flex flex-col items-center p-8 text-center bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-56 min-h-full">
-    {/*<span className="text-4xl text-orange-500">
-      {inView && <CountUp start={0} end={1000} duration={2} separator="," suffix="+" />}
-    </span>*/}
-    <h4 className="text-white text-2xl font-extrabold mb-3 flex">
-      <span>Beginner</span>
-      <span className="ml-1">Level</span>
-    </h4>
-    <span className="text-lg text-gray-200">3rd & 4th Years</span>
-  </div>
-
-</div>
-
-
 
       <div className="grid gap-8 mt-10 font-medium md:grid-cols-2">
         <div className="flex items-center justify-center h-full p-6 bg-gray-700 rounded-lg">
           <div className="max-w-lg overflow-y-auto text-white">
-            <h2 className="mb-10 text-4xl font-bold text-center titles">
+            <h2 className="mb-10 text-4xl font-bold text-center titles text-orange-300">
               What is Icon Coderz
             </h2>
             <p className="mb-4 text-lg">
@@ -73,6 +44,7 @@ const AboutSection = () => {
           />
         </div>
       </div>
+
     </div>
   );
 };

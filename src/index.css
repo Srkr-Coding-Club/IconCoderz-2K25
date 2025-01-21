@@ -75,3 +75,22 @@ body {
   position: relative;
   z-index: 10;
 } */
+@layer components {
+  /* Animation for the flip */
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .text-shadow-md {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+}
+
