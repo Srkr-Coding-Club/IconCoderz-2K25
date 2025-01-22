@@ -3,7 +3,7 @@ import ReactConfetti from "react-confetti";
 
 export default function Timer() {
   const [timerState, setTimerState] = useState("idle");
-  const [timeLeft, setTimeLeft] = useState(24 * 60 * 60); // 24 hours in seconds
+  const [timeLeft, setTimeLeft] = useState(1 * 60 * 60); // 24 hours in seconds
   const [showConfetti, setShowConfetti] = useState(false);
   const [windowDimensions, setWindowDimensions] = useState({
     width: 0,
@@ -67,7 +67,7 @@ export default function Timer() {
 
     const startTime = Math.floor(Date.now() / 1000);
     localStorage.setItem("startTime", startTime.toString());
-    localStorage.setItem("timeLeft", (24 * 60 * 60).toString());
+    localStorage.setItem("timeLeft", (1 * 60 * 60).toString());
     localStorage.setItem("timerState", "running");
 
     setTimeout(() => setShowConfetti(false), 5000);

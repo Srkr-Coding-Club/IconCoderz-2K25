@@ -16,7 +16,7 @@ const Card = ({
       <div className="card-inner">
         <div className="card-front" onClick={onClick}>
           <div className="medal">
-            <img src={medal} alt="Medal" />
+            <img src={medal} alt="Medal" className="drop-shadow-5xl"/>
           </div>
           <h3>{level}</h3>
           <button className="view-prize-button">View Prize</button>
@@ -43,7 +43,7 @@ const Prizess = () => {
     {
       medal: assets.begginer, 
       image: assets.watch1, 
-      level: "Begginer Level",
+      level: "Beginner Level",
       title: "1st Prize", 
     },
     {
@@ -65,7 +65,15 @@ const Prizess = () => {
   };
 
   return (
+
+  <div  id='prizess'>
+    <div className="mb-5 mt-12">
+    <h1 className="text-4xl font-extrabold text-center text-gray-100 tracking-wide uppercase animate__animated animate__fadeIn ">
+            Prizes
+            </h1>
+    </div>
     <div className="card-container">
+      
       {cardData.map((data, index) => (
         <Card
           key={index}
@@ -80,6 +88,9 @@ const Prizess = () => {
         />
       ))}
     </div>
+  </div>
+
+    
   );
 };
 

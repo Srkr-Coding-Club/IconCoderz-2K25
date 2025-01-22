@@ -18,6 +18,7 @@ import nobg from "./nobg.png"
 import hero1 from "./begginer.png"
 import banner from "./banner.png"
 import winner24 from "./winner24.png" 
+import eventpicfinal from "./eventpicfinal.png"
 export const assets={
     HeroSection,
     coder,
@@ -38,5 +39,6 @@ export const assets={
     hero1,
     banner,
     admin,
-    winner24
+    winner24,
+    eventpicfinal
 }

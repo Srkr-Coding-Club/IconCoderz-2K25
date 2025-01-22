@@ -15,12 +15,18 @@ const PastEvents = () => {
         },
         { 
           name: "Marikanthi Sai", 
-          redgno: "", 
-          branch: "",
+          redgno: "21B91A54A4", 
+          branch: "AIDS",
           image: assets.admin, 
         },
+        {
+          name: "Chandaka Balaji", 
+          redgno: "20B91A0435", 
+          branch: "ECE",
+          image: assets.admin,
+        }
       ],
-      eventpic: assets.winner24,
+      eventpic: assets.eventpicfinal,
       impact: "Over 200 participants, with groundbreaking projects in AI and agriculture.",
     },
     {
@@ -45,7 +51,7 @@ const PastEvents = () => {
 
         <div className="space-y-16">
           {pastEvents.map((event, index) => (
-            <div key={index} className="bg-gray-800 p-10 rounded-3xl shadow-xl">
+            <div key={index} className="bg-gray-700 p-10 rounded-3xl shadow-xl">
               <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-10">
                 <div className="flex-1">
                   <h3 className="text-3xl font-semibold mb-4 text-gray-100">{event.title}</h3>
@@ -60,7 +66,8 @@ const PastEvents = () => {
                             <img
                               src={winner.image}
                               alt={winner.name}
-                              className="w-24 h-24 rounded-full border-4 border-indigo-400 transition-transform duration-300 group-hover:scale-110" // Increased size from w-16 to w-24
+                               className="object-contain w-20 h-auto rounded-full border-4 border-indigo-400 transition-transform duration-300 group-hover:scale-110"  Increased size from w-16 to w-24 
+                              // className='object-contain rounded-full border-4 border-indigo-400 w-24 h-24'
                             />
                             <div>
                               <span className="font-semibold text-indigo-400"> {winner.name} </span> 
@@ -73,8 +80,8 @@ const PastEvents = () => {
                   </div>
                 </div>
 
-                <div className="flex-none max-w-lg w-full">
-                  <img src={event.eventpic} alt="" className="w-full h-auto rounded-xl shadow-lg" />
+                <div className="flex-none h-auto max-w-lg w-full">
+                  <img src={event.eventpic} alt="" className="w-full h-auto rounded-xl mb-5" />
                 </div>
               </div>
             </div>
