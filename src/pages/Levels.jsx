@@ -2,7 +2,7 @@ import React from 'react';
 
 const Levels = () => {
     return (
-        <div className="text-center space-y-8">
+        <div className="text-center space-y-8" id='prizess'>
             {/* Title Section */}
             <div>
                 <h2 className="text-4xl font-extrabold text-center mb-16 text-gray-100 tracking-wide uppercase animate__animated animate__fadeIn">

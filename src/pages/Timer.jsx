@@ -104,7 +104,7 @@ export default function Timer() {
           {timerState === "idle" && (
             <>
               <h1 className="mb-6 text-4xl font-extrabold text-white">
-                24 Hour Timer
+                1 Hour Timer
               </h1>
               <button
                 onClick={startTimer}

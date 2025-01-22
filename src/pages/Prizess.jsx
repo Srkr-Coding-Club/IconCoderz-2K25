@@ -23,7 +23,7 @@ const Card = ({
         </div>
         <div className="card-back">
           <div className="card-back-title">{title}</div> {/* Title for the back */}
-          <img src={image} alt="Card Back" className="card-back-image" />
+          <img src={image} alt="Card Back" className="card-back-image drop-shadow-3xl" />
           {showBackButton && (
             <button className="back-button" onClick={onBackClick}>
               Back
@@ -41,15 +41,15 @@ const Prizess = () => {
 
   const cardData = [
     {
-      medal: assets.coder1, // Replace with your image path
-      image: assets.airpods1, // Replace with your image path
-      level: "1st Prize",
-      title: "1st Prize", // Title for the back of the card
+      medal: assets.begginer, 
+      image: assets.watch1, 
+      level: "Begginer Level",
+      title: "1st Prize", 
     },
     {
       medal: assets.expert, // Replace with your image path
-      image: assets.watch1, // Replace with your image path
-      level: "2nd Prize",
+      image: assets.airpods1, // Replace with your image path
+      level: "Expert Level",
       title: "2nd Prize", // Title for the back of the card
     },
   ];

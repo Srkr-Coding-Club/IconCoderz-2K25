@@ -16,14 +16,6 @@ const queryList = [
       "The competition will feature coding problems that test your problem-solving and algorithmic skills. The problems will range from basic programming concepts to more advanced topics like data structures, algorithms, and computational thinking. ",
   },
   {
-    question: "What is the total prize pool?",
-    answer: `The total prize pool for HackOverflow is ₹30,000, which will be split as follows:
-• 1st Place: ₹15,000
-• 2nd Place: ₹10,000
-• 3rd Place: ₹5,000
-`,
-  },
-  {
     question: "Can I participate as an individual or do I need a team?",
     answer:
       "Icon Coderz is usually an individual competition. Participants will be required to solve problems on their own, showcasing their individual programming and problem-solving skills.",
@@ -47,15 +39,16 @@ const queryList = [
   {
     question: "How will the winners be determined?",
     answer:
-      "Winners will be determined based on the accuracy and efficiency of their solutions. The problems will have a time limit, and participants are required to submit correct and optimized solutions within that time. Points will be awarded based on the correctness of the solution and the time taken to solve each problem. The participant with the highest points across all problems will be declared the winner..",
+      "Winners will be determined based on the leaderboard results",
   },
   {
     question: "What are the communication channels for participants to reach out to the organizing team?",
     answer: `
 Participants can reach out for any inquiries via email at srkrcodingclub@gmail.com. Alternatively, they can contact us directly by phone:
 - P.Yogendra: +91 9492100941
-- M.Udhay: +91 7032516384
-- P.Ankith: +91 7032516384
+- CH Likitha: +91 8688545819
+- P.Ankith: +91 9100579797
+- S Harshavardhan: +91 9703663860
 
 Feel free to reach out, and we're here to help you with any questions or concerns you might have.
 `,

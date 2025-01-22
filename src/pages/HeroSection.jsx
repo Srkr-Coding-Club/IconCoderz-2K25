@@ -55,11 +55,11 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="mt-8 md:mt-0 w-[700px] md:ml-8 md:w-[800px] justify-center items-center hidden md:flex relative drop-shadow-3xl">
+      <div className="mt-8 md:mt-0 w-[700px] md:ml-8 md:w-[900px] justify-center items-center hidden md:flex relative drop-shadow-3xl">
   <img 
-    src={assets.finaledit} 
+    src={assets.hero1} 
     alt="Character" 
-    className="max-w-full h-auto md:h-[30rem] lg:h-[35rem]"
+    className="max-w-full h-auto md:h-[30rem] lg:h-[33rem]"
   />
 </div>
 

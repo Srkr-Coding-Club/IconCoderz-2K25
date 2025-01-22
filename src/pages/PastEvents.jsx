@@ -14,13 +14,13 @@ const PastEvents = () => {
           image: assets.previouswinner1, // Placeholder image for example
         },
         { 
-          name: "SaiGanesh Ambati", 
-          redgno: "22B91A05N5", 
-          branch: "CSE",
-          image: assets.pic, 
+          name: "Marikanthi Sai", 
+          redgno: "", 
+          branch: "",
+          image: assets.admin, 
         },
       ],
-      eventpic: assets.eventpic,
+      eventpic: assets.winner24,
       impact: "Over 200 participants, with groundbreaking projects in AI and agriculture.",
     },
     {

@@ -97,19 +97,25 @@ const Footer = () => {
               Get in Touch
             </h3>
             <p className="mt-2 text-sm sm:text-xl">
-              <span className="font-bold">Siva Gopal Varma (President)
+              <span className="font-bold">P YOGENDRA
               </span> <br />
-              Phone: <a href="tel:919951881139">+91 9951881139</a> <br />
+              Phone: <a href="tel:+919492100941">+91 9492100941</a> <br />
             </p>
             <p className="mt-2 text-sm sm:text-xl">
-              <span className="font-bold">Shaik Rafique(Event Coordinator)
+              <span className="font-bold">CH LIKITHA
               </span> <br />
-              Phone: <a href="tel:+919381327622">+91 9381327622</a> <br />
+              Phone: <a href="tel:+918688545819">+91 8688545819</a> <br />
             </p>
             <p className="mt-2 text-sm sm:text-xl">
-              <span className="font-bold">Narendra Varma(Public Relations)
+              <span className="font-bold">P ANKITH
               </span> <br />
-              Phone: <a href="tel:+918143628288">+91 8143628288</a>
+              Phone: <a href="tel:+919100579797">+91 9100579797</a>
+              <br />
+            </p>
+            <p className="mt-2 text-sm sm:text-xl">
+              <span className="font-bold">S HARSHAVARDHAN
+              </span> <br />
+              Phone: <a href="tel:+919703663860">+91 9703663860</a>
               <br />
             </p>
           </div>

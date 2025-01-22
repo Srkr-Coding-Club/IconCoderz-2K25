@@ -29,7 +29,7 @@ const Popup = () => {
         {/* Image Section */}
         <div className="relative mb-4 flex justify-center items-center w-full h-56 sm:h-72 max-h-80 overflow-hidden rounded-lg shadow-md"> {/* Responsive heights */}
           <Image 
-            src={assets.poster}
+            src={assets.banner}
             className={`w-full h-full object-contain transition-all duration-500 ${imageLoaded ? 'filter-none' : 'filter blur'}`} 
             onLoad={handleImageLoad}
             style={{ transition: "filter 0.5s" }} // Add transition to filter property

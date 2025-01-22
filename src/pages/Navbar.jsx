@@ -126,7 +126,7 @@ const Navbar = () => {
               </li>
               <li>
                 <ScrollLink
-                  to="prizes"
+                  to="prizess"
                   smooth={true}
                   duration={500}
                   className="block py-2 pl-3 pr-4 text-white transition-colors duration-300 border-b-2 border-transparent cursor-pointer hover:text-gray-300 hover:border-blue-400 md:hover:bg-transparent md:border-0 md:p-0"

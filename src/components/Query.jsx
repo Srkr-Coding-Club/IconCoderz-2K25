@@ -21,7 +21,7 @@ const Query = () => {
         {/*/about.png*/}
           <img
             src={assets.coder1}
-            className=" max-h-min  scale-x-[-1] drop-shadow-3xl"
+            className=" max-h-min  scale-x-[-1] "
           />
         </div>
       </div>
