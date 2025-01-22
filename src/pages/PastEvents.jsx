@@ -17,7 +17,7 @@ const PastEvents = () => {
           name: "Marikanthi Sai", 
           redgno: "21B91A54A4", 
           branch: "AIDS",
-          image: assets.admin, 
+          image: assets.previouswinner2, 
         },
         {
           name: "Chandaka Balaji", 

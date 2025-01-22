@@ -12,6 +12,7 @@ import finaledit from "./finaledit.png"
 import poster from "./poster.jpg"
 import winner from "./winner.png"
 import previouswinner1 from "./previouswinner1.jpg"
+import previouswinner2 from "./previouswinner2.jpg"
 import begginer from "./begginernobg1.png"
 import expert from "./expertnobg1.png"
 import nobg from "./nobg.png"
@@ -40,5 +41,6 @@ export const assets={
     banner,
     admin,
     winner24,
-    eventpicfinal
+    eventpicfinal,
+    previouswinner2
 }
