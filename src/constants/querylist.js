@@ -1,6 +1,6 @@
 const queryList = [
   {
-    "question": "What are the eligibility criteria for participating in Icon Coderz?",
+    "question": "What is the eligibility criteria for participating in Icon Coderz?",
     "answer": "The competition is open to all college students, regardless of their institution. The eligibility is divided into two levels:\n\nBeginner Level: For 1st and 2nd-year students.\nExpert Level: For 3rd and 4th-year students."
   },
   
@@ -54,7 +54,7 @@ Feel free to reach out, and we're here to help you with any questions or concern
 `,
   },
   {
-    question:"Are there social media or online platforms where participants can follow event updates?",
+    question:"Are there any social media or online platforms where participants can follow updates about the event?",
     answer:"Yes, you can follow our Instagram handle for event updates: https://www.instagram.com/srkr_coding_club?igsh=MTVycDY4cGs3d3I0ZA==",
   },
   {
