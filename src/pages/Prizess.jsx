@@ -23,7 +23,7 @@ const Card = ({
         </div>
         <div className="card-back">
           <div className="card-back-title">{title}</div> {/* Title for the back */}
-          <img src={image} alt="Card Back" className="card-back-image drop-shadow-3xl" />
+          <img src={image} alt="Card Back" className="card-back-image drop-shadow-4xl" />
           {showBackButton && (
             <button className="back-button" onClick={onBackClick}>
               Back
