@@ -33,12 +33,32 @@ const PastEvents = () => {
       title: "Icon Coderz 2K25",
       date: "February 2025",
       winners:[
-        {
-          name:"Who gone be next Icon Coderz 2k25?",
-          image:assets.adminf
+        { 
+          name: "William Keri", 
+          redgno: "23B95A0537", 
+          branch: "CSE",
+          image: assets.firstewinner, // Placeholder image for example
+        },
+        { 
+          name: "Pulaparthi Arun Teja", 
+          redgno: "22B91A54B8", 
+          branch: "AIDS",
+          image: assets.secondewinner , // Placeholder image for example
+        },
+        { 
+          name: "Chintalapudi Sathvik", 
+          redgno: "23B91A6127", 
+          branch: "AIML",
+          image: assets.firstbwinner, // Placeholder image for example
+        },
+        { 
+          name: "Nekkanti Surya Pravallika", 
+          redgno: "23B91A05J9", 
+          branch: "CSE",
+          image: assets.secondbwinner, // Placeholder image for example
         }
       ],
-      eventpic:assets.winner
+      eventpic:assets.presentwinners
     }
   ];
 

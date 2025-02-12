@@ -20,6 +20,12 @@ import hero1 from "./begginer.png"
 import banner from "./banner.png"
 import winner24 from "./winner24.png" 
 import eventpicfinal from "./eventpicfinal.png"
+import firstewinner from "./firstewinner.jpg"
+import firstbwinner from "./firstbwinner.jpg"
+import secondewinner from "./secondewinner.jpg"
+import secondbwinner from "./secondbwinner.jpg"
+import presentwinners from "./presentwinners.png"
+import begginerwinner from "./begginerwinner.jpg"
 export const assets={
     HeroSection,
     coder,
@@ -42,5 +48,11 @@ export const assets={
     admin,
     winner24,
     eventpicfinal,
-    previouswinner2
+    previouswinner2,
+    firstewinner,
+    firstbwinner,
+    secondewinner,
+    secondbwinner,
+    presentwinners,
+    begginerwinner
 }
